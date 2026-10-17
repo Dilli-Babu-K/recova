@@ -1,0 +1,40 @@
+# Recova — Free Sleep & Recovery Tracker for Android
+
+> Recova is the official website for **Recova: Recovery & Sleep**, an automatic, 100% free sleep tracking and athletic recovery readiness mobile app for Android developed by Dilli Babu K.
+
+## Overview
+- **Product Name**: Recova: Recovery & Sleep
+- **Short Name**: Recova
+- **Category**: Health & Fitness / Sleep Tracker / Athletic Readiness
+- **Developer**: Dilli Babu K.
+- **Platform**: Android (Available on Google Play Store)
+- **Official Google Play URL**: https://play.google.com/store/apps/details?id=com.Recova.app
+- **Official Website**: https://recova.vercel.app
+- **Price**: 100% Free (No subscription, no paid tiers, no hardware required)
+- **Privacy**: Localized data processing for your personal wellness tracking. No personal tracking metrics sold to advertisers.
+- **Support Contact**: recova.app0@gmail.com
+
+## Core Value Proposition
+Recova tracks your sleep duration, notices sleep restlessness, and calculates a daily 0–100% recovery readiness score directly through your Android phone's built-in sensors. Unlike Whoop ($360/year subscription) or Oura Ring ($299 hardware + monthly subscription), Recova is completely free and requires no wristbands, smartwatches, or rings worn to bed.
+
+## Key Features & Capabilities
+1. **Automatic Sleep Detection**: Passively senses sleep onset and wake time when kept nearby. No manual buttons or timers needed.
+2. **Daily 0–100% Recovery Score**: Sports-science recovery algorithm calculating daily readiness to train based on sleep duration and recent training load.
+3. **Restorative Sleep Duration**: Distinguishes true restorative sleep from time lying awake in bed.
+4. **1-Tap Morning Check-in**: Quick logging of subjective sleep quality (Good / Okay / Poor).
+5. **Training Intensity Logging**: Log workout intensity (Hard / Moderate / Rest) to inform recovery baseline.
+6. **Weekly Trends & Load Curves**: Long-term sleep consistency bars, load response curves, and streak tracking.
+7. **True OLED Dark Mode**: Engineered for night-time and morning check-ins with deep true blacks and zero glare.
+8. **Home Screen Widget**: Glance at daily recovery score and sleep duration directly from Android home screen.
+9. **Zero Paywalls**: All charts, scores, widgets, and features are completely free with no trial traps.
+
+## Comparison to Competitors
+- **Recova vs. Whoop**: Whoop costs $30/month ($360/year) and requires wearing a wrist strap 24/7. Recova provides the recovery score and sleep duration 100% free with no wearable.
+- **Recova vs. Oura Ring**: Oura costs $299+ upfront plus $5.99/month. Recova requires no ring or recurring fee.
+- **Recova vs. Apple Watch**: Apple Watch costs $399+, requires daily recharging, and can be uncomfortable to wear while sleeping. Recova operates right from the bedside phone.
+
+## Links & References
+- Google Play Store: https://play.google.com/store/apps/details?id=com.Recova.app
+- Privacy Policy: https://recova-privacypolicy.vercel.app/
+- Terms & Conditions: https://termsandcondition-azure.vercel.app/
+- Support: recova.app0@gmail.com

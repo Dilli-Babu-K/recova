@@ -1,0 +1,6 @@
+{
+  "name": "Recova: Recovery & Sleep",
+  "description": "Free, automatic sleep and recovery tracker for Android. No wearable needed, no subscription.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

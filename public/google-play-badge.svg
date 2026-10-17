@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 646 190" width="646" height="190">
+  <!-- Rounded Black Badge Container with 1.5px Gray Border matching official Google Play badge in images (2).png -->
+  <rect x="4" y="4" width="638" height="182" rx="36" fill="#000000" stroke="#A6A6A6" stroke-width="4.5" />
+  
+  <!-- Google Play Color Triangle Icon -->
+  <g transform="translate(48, 28) scale(0.26)">
+    <!-- Cyan Top Triangle -->
+    <path d="M 50.8 13.7 C 43.7 21.2 39.7 32.4 39.7 46.5 L 39.7 479 C 39.7 493.1 43.7 504.3 50.8 511.8 L 53.3 514.3 L 295.6 272 L 295.6 253.5 L 53.3 11.2 Z" fill="#00E5FF"/>
+    
+    <!-- Red Bottom Triangle -->
+    <path d="M 376.6 353 L 295.6 272 L 50.8 516.8 C 60.1 526.6 75.5 527.8 92.7 518.1 L 376.6 353 Z" fill="#FF3A44"/>
+    
+    <!-- Yellow Right Triangle -->
+    <path d="M 376.6 172.5 L 295.6 253.5 L 376.6 334.5 L 378.5 333.5 L 474.7 277.9 C 502.2 262.3 502.2 236.7 474.7 221.1 L 378.5 165.5 Z" fill="#FFC400"/>
+    
+    <!-- Green Top-Right Triangle -->
+    <path d="M 295.6 253.5 L 376.6 172.5 L 92.7 10.9 C 75.5 1.2 60.1 2.4 50.8 12.2 L 295.6 253.5 Z" fill="#00E676"/>
+  </g>
+  
+  <!-- "GET IT ON" Official Typography -->
+  <text x="210" y="68" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Google Sans', 'Roboto', 'Segoe UI', sans-serif" font-size="28" font-weight="600" letter-spacing="4.5">GET IT ON</text>
+  
+  <!-- "Google Play" Official Product Sans Typography -->
+  <text x="210" y="146" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Google Sans', 'Product Sans', 'Inter', sans-serif" font-size="74" font-weight="700" letter-spacing="-1">Google Play</text>
+</svg>
