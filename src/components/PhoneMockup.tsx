@@ -85,10 +85,10 @@ export default function PhoneMockup({
   // Dimensional sizes matching 720 : 1555 (1 : 2.16) aspect ratio
   // Carefully tuned to prevent horizontal overflow on smaller screens
   const sizeClasses = {
-    sm: 'w-[170px] xs:w-[190px] sm:w-[210px]',
-    md: 'w-[200px] xs:w-[230px] sm:w-[260px]',
-    lg: 'w-[240px] sm:w-[280px] md:w-[320px]',
-    adaptive: 'w-[180px] xs:w-[200px] sm:w-[230px] md:w-[265px] lg:w-[295px] xl:w-[320px]',
+    sm: 'w-[155px] xs:w-[175px] sm:w-[195px]',
+    md: 'w-[190px] xs:w-[215px] sm:w-[245px]',
+    lg: 'w-[230px] sm:w-[270px] md:w-[310px]',
+    adaptive: 'w-[165px] xs:w-[185px] sm:w-[220px] md:w-[255px] lg:w-[285px] xl:w-[310px]',
   }[size];
 
   const current = screenData[activeScreen];
@@ -168,15 +168,18 @@ export default function PhoneMockup({
             <img
               src={current.image}
               alt={altText || `Recova - ${current.title}`}
-              className="w-full h-full object-cover object-top block select-none pointer-events-none"
+              className="w-full h-full block select-none pointer-events-none"
               style={{
-                imageRendering: '-webkit-optimize-contrast',
+                objectFit: 'cover',
+                objectPosition: 'top center',
+                imageRendering: 'auto',
                 WebkitBackfaceVisibility: 'hidden',
                 backfaceVisibility: 'hidden',
-                transform: 'translateZ(0)',
+                MozOsxFontSmoothing: 'grayscale',
+                WebkitFontSmoothing: 'antialiased',
               }}
               loading="eager"
-              decoding="sync"
+              decoding="async"
             />
           </div>
         </div>
