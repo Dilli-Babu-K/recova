@@ -80,7 +80,7 @@ export default function HeroSection() {
 
               {/* Phone 2: Daily Recovery Score (Subtle tilt right, overlapping cleanly) */}
               <div
-                className="relative z-20 -ml-8 sm:-ml-12 md:-ml-14 lg:-ml-16 flex flex-col items-center transition-all duration-300 ease-out hover:z-30 hover:scale-[1.03] hover:rotate-0 group cursor-pointer"
+              className="relative z-20 -ml-6 sm:-ml-12 md:-ml-14 lg:-ml-16 flex flex-col items-center transition-all duration-300 ease-out hover:z-30 hover:scale-[1.03] hover:rotate-0 group cursor-pointer"
                 style={{
                   transform: 'rotate(3deg) translateY(-8px)',
                   WebkitBackfaceVisibility: 'hidden',

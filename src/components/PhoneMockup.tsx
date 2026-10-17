@@ -85,10 +85,10 @@ export default function PhoneMockup({
   // Dimensional sizes matching 720 : 1555 (1 : 2.16) aspect ratio
   // Carefully tuned to prevent horizontal overflow on smaller screens
   const sizeClasses = {
-    sm: 'w-[145px] xs:w-[165px] sm:w-[185px]',
-    md: 'w-[180px] xs:w-[210px] sm:w-[240px]',
-    lg: 'w-[220px] sm:w-[260px] md:w-[300px]',
-    adaptive: 'w-[140px] xs:w-[165px] sm:w-[210px] md:w-[250px] lg:w-[280px] xl:w-[305px]',
+    sm: 'w-[170px] xs:w-[190px] sm:w-[210px]',
+    md: 'w-[200px] xs:w-[230px] sm:w-[260px]',
+    lg: 'w-[240px] sm:w-[280px] md:w-[320px]',
+    adaptive: 'w-[180px] xs:w-[200px] sm:w-[230px] md:w-[265px] lg:w-[295px] xl:w-[320px]',
   }[size];
 
   const current = screenData[activeScreen];
@@ -170,12 +170,13 @@ export default function PhoneMockup({
               alt={altText || `Recova - ${current.title}`}
               className="w-full h-full object-cover object-top block select-none pointer-events-none"
               style={{
-                imageRendering: 'auto',
+                imageRendering: '-webkit-optimize-contrast',
                 WebkitBackfaceVisibility: 'hidden',
                 backfaceVisibility: 'hidden',
+                transform: 'translateZ(0)',
               }}
               loading="eager"
-              decoding="async"
+              decoding="sync"
             />
           </div>
         </div>
